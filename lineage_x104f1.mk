@@ -4,6 +4,8 @@ $(call inherit-product, device/lenovo/x104f/x104f.mk)
 
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
+PRODUCT_PACKAGES += RemovePackagesX104Wifi
+
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
